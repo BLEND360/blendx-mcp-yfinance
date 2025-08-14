@@ -18,7 +18,7 @@ ENV UV_COMPILE_BYTECODE=1 \
     PATH="/root/.local/bin/:$PATH"
 
 # Expose the port the app runs on
-EXPOSE 8081
+EXPOSE 8080
 
 # Run the application
 CMD ["uv", "run", "python", "src/mcp_server.py", "--port", "8081"] 
