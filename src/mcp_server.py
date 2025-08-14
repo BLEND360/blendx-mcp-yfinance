@@ -67,7 +67,6 @@ async def get_stock_info(ticker: str) -> str:
             "52_week_high": info.get("fiftyTwoWeekHigh", "N/A"),
             "52_week_low": info.get("fiftyTwoWeekLow", "N/A")
         }
-          2
         return json.dumps(result, indent=2)
     except Exception as e:
         return json.dumps({"error": f"Error retrieving stock info for {ticker}: {str(e)}"})
