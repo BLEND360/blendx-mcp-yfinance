@@ -1,9 +1,9 @@
 [project]
-name = "mcp-tool-template"
+name = "mcp-yfinance"
 version = "1.0.0"
-description = "Custom MCP tool template for local development and deployment"
+description = "MCP server with yfinance tools for stock market data"
 authors = [
-    {name = "MCP Tool Template", email = "template@example.com"}
+    {name = "MCP yfinance", email = "mcp@example.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.10"
@@ -44,6 +44,7 @@ dependencies = [
     "pandas>=2.1.4",
     "numpy>=1.25.2",
     "psutil>=5.9.6",
+    "yfinance>=0.2.28",
     
     # Monitoring and metrics
     "prometheus-client>=0.19.0",
