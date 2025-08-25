@@ -21,4 +21,4 @@ ENV UV_COMPILE_BYTECODE=1 \
 EXPOSE 8080
 
 # Run the application
-CMD ["uv", "run", "python", "src/mcp_server.py", "--port", "8081"] 
+CMD ["uv", "run", "python", "src/mcp_server.py", "--port", "8080"] 
